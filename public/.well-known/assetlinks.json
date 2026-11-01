@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.codetech.numsysconverter",
+    "sha256_cert_fingerprints": ["49:F5:D6:F7:D0:6B:5D:65:4F:37:EC:49:1D:90:61:F9:D9:92:0F:C4:18:70:9B:E9:32:B6:FB:65:4A:C1:DD:74"]
+  }
+}]

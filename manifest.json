@@ -1,6 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "id": "com.codetech.numsysconverter",
   "name": "Number System Converter",
-  "short_name": "NumSys Converter",
+  "short_name": "NumSys",
   "description": "Convert numbers between Binary, Decimal, Octal, Hexadecimal and Roman numerals with step-by-step explanations. Works fully offline.",
   "start_url": "./index.html",
   "scope": "./",
@@ -9,8 +11,16 @@
   "orientation": "portrait",
   "background_color": "#f8fafc",
   "theme_color": "#2563eb",
+  "lang": "en",
+  "dir": "ltr",
   "categories": ["utilities", "education", "productivity"],
   "icons": [
+    {
+      "src": "icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
@@ -28,6 +38,82 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-monochrome-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "icons/icon-monochrome-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "icons/icon-monochrome.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "monochrome"
     }
-  ]
+  ],
+  "shortcuts": [
+    {
+      "name": "Binary to Decimal",
+      "short_name": "Bin → Dec",
+      "description": "Convert binary numbers to decimal with step-by-step logic",
+      "url": "./index.html?conv=binaryToDecimal",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Decimal to Binary",
+      "short_name": "Dec → Bin",
+      "description": "Convert decimal numbers to binary with step-by-step logic",
+      "url": "./index.html?conv=decimalToBinary",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Decimal to Hexadecimal",
+      "short_name": "Dec → Hex",
+      "description": "Convert decimal numbers to hexadecimal",
+      "url": "./index.html?conv=decimalToHex",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Roman to Decimal",
+      "short_name": "Roman → Dec",
+      "description": "Convert Roman numerals to decimal",
+      "url": "./index.html?conv=romanToDecimal",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.codetech.numsysconverter",
+      "id": "com.codetech.numsysconverter"
+    }
+  ],
+  "prefer_related_applications": false
 }

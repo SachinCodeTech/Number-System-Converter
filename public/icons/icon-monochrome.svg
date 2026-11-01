@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Circular boundary -->
+  <circle cx="256" cy="256" r="222" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+  <!-- Base 10 representation -->
+  <text x="256" y="195" text-anchor="middle" font-family="'DejaVu Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="104" fill="#FFFFFF" letter-spacing="2">10</text>
+  <!-- Transfer arrows -->
+  <path d="M 244 278 L 244 236 M 234 246 L 244 226 L 254 246" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 268 234 L 268 276 M 258 266 L 268 286 L 278 266" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Binary 1010 representation -->
+  <text x="256" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-weight="700" font-size="58" fill="#FFFFFF" letter-spacing="8">1010</text>
+</svg>
