@@ -1,11 +1,13 @@
+
 {
   "name": "number-system-converter",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build"
+    "dev": "vite",
+    "build": "vite build && node scripts/copy-pwa-assets.mjs",
+    "preview": "vite preview"
   },
   "dependencies": {
     "vite": "^6.4.5"
