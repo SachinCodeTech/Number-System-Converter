@@ -2,7 +2,7 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "io.github.sachincodetech.twa",
-        "sha256_cert_fingerprints": ["CE:C4:61:BE:07:EF:EA:7A:87:78:67:CD:CB:34:D2:96:DE:E9:84:A5:7B:28:E4:3D:23:4C:05:C9:FD:EF:93:88"]
+        "package_name": "com.codetech.numsysconverter",
+        "sha256_cert_fingerprints": ["D4:48:70:D2:C0:6B:7D:CF:02:C0:D3:05:21:BE:4C:C8:80:A8:DD:FC:8B:18:22:6F:3A:91:0F:2B:BC:07:C8:69"]
       }
     }]
